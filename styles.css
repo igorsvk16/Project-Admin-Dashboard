@@ -6,13 +6,13 @@
 
 .main {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1.5fr 8fr;
     min-height: 100vh;
 }
 
 .left-panel {
     background-color: #1992D4;
-    color: aliceblue;
+    color: rgb(240, 248, 255);
 }
 
 .logo-name {
@@ -38,3 +38,15 @@
     list-style: none;
 }
 
+
+.right-panel {
+    background-color: rgb(213, 230, 245);
+    display: grid;
+}
+
+.header {
+    display: grid;
+    grid-column: 1.5 / 8;
+    background-color: rgb(0, 123, 255);
+    height: 10%;
+}
