@@ -40,13 +40,22 @@
 
 
 .right-panel {
-    background-color: rgb(213, 230, 245);
+    background-color: rgb(192, 208, 221);
     display: grid;
 }
 
 .header {
     display: grid;
     grid-column: 1.5 / 8;
-    background-color: rgb(0, 123, 255);
-    height: 10%;
+    background-color: #FFF;
+    height: 13%;
+    grid-area: 1fr / 1fr 1fr;
+}
+
+.header-upper {
+    background-color: #b2d419;
+}
+
+.header-lower {
+    background-color: aquamarine;
 }
