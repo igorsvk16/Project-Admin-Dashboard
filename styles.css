@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    min-height: 100vh;
+}
+
+.left-panel {
+    background-color: #1992D4;
+    color: aliceblue;
+}
+
+.logo-name {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 8%;
+    padding-top: 4%;
+    margin-bottom: 10%;
+}
+
+.categories {
+    margin-bottom: 50%;
+}
+
+.categories ul,
+.settings ul {
+    display: grid;
+    gap: 10%;
+    font-size: 1.4rem;
+}
+.categories ul,
+.settings ul {
+    list-style: none;
+}
+
