@@ -42,20 +42,104 @@
 .right-panel {
     background-color: rgb(192, 208, 221);
     display: grid;
+    grid-template-rows: 1fr 5fr;
 }
 
 .header {
     display: grid;
     grid-column: 1.5 / 8;
     background-color: #FFF;
-    height: 13%;
     grid-area: 1fr / 1fr 1fr;
 }
 
 .header-upper {
-    background-color: #b2d419;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1%;
+}
+
+
+.search {
+    background-color: #dbdbdb;
+    border-radius: 25px;
+    margin: 7px 20% 7px 5%;
+}
+
+.notifications-and-profile {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 40px;
+    align-items: center;
+}
+
+.notifications {
+    background-color: coral;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo {
+    background-color: darksalmon;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.name {
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 .header-lower {
-    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.greeting-profile {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5%;
+    gap: 2%;
+}
+.greeting-hi {
+    font-weight: 600;
+}
+.greeting-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+.logo-greeting {
+    width: 50px;
+    height: 50px;
+    background-color: lightpink;
+    border-radius: 50%;
+}
+
+.actions {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 70px;
+    margin-right: 10%;
+}
+
+.new, .upload, .share {
+    background-color: #1992D4;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.content {
+    background-color: antiquewhite;
 }
