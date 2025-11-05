@@ -142,4 +142,38 @@
 
 .content {
     background-color: antiquewhite;
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+    align-items: start;
 }
+
+.projects {
+    display: grid;
+    background-color: aqua;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+}
+.projects-header {
+    display: grid;
+    margin-bottom: 2%;
+    height: 10px;
+}
+.projects-template {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+}
+.project {
+    background-color: azure;
+    margin: 5%;
+    height: 50px;
+}
+
+
+.announcements-trending {
+    background-color: aquamarine;
+    grid-auto-flow: column;
+}
+
+
+
