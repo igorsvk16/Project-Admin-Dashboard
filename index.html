@@ -1,106 +1,252 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project: Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
-        rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project: Admin Dashboard</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet">
+    </head>
 
-<body>
-    <section class="main">
-        <div class="left-panel">
-            <div class="logo-name">
-                <p>Dashboard</p>
-            </div>
-            <div class="categories">
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
-                </ul>
-            </div>
-            <div class="settings">
-                <ul>
-                    <li>
-                        Settings
-                    </li>
-                    <li>
-                        Support
-                    </li>
-                    <li>
-                        Privacy
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="right-panel">
-            <div class="header">
-                <div class="header-upper">
-                    <div class="search"></div>
-                    <div class="notifications-and-profile">
-                        <div class="notifications"></div>
-                        <div class="logo"></div>
-                        <div class="name">
-                            <p>Morgan Oacley</p>
-                        </div>
-                    </div>
+    <body>
+        <section class="main">
+            <div class="left-panel">
+                <div class="logo-name">
+                    <p>Dashboard</p>
                 </div>
-                <div class="header-lower">
-                    <div class="greeting-profile">
-                        <div class="logo-greeting"></div>
-                        <div>
-                            <div class="greeting-hi">
-                                <p>Hi there,</p>
-                            </div>
-                            <div class="greeting-name">
-                                <p>Morgan Oacley (@morgan)</p>
+                <div class="categories">
+                    <ul>
+                        <li>Home</li>
+                        <li>Profile</li>
+                        <li>Messages</li>
+                        <li>History</li>
+                        <li>Tasks</li>
+                        <li>Communities</li>
+                    </ul>
+                </div>
+                <div class="settings">
+                    <ul>
+                        <li>
+                            Settings
+                        </li>
+                        <li>
+                            Support
+                        </li>
+                        <li>
+                            Privacy
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="header">
+                    <div class="header-upper">
+                        <div class="search"></div>
+                        <div class="notifications-and-profile">
+                            <div class="notifications"></div>
+                            <div class="logo"></div>
+                            <div class="name">
+                                <p>Morgan Oacley</p>
                             </div>
                         </div>
                     </div>
-                    <div class="actions">
-                        <button class="new">New</button>
-                        <button class="upload">Upload</button>
-                        <button class="share">Share</button>
+                    <div class="header-lower">
+                        <div class="greeting-profile">
+                            <div class="logo-greeting"></div>
+                            <div>
+                                <div class="greeting-hi">
+                                    <p>Hi there,</p>
+                                </div>
+                                <div class="greeting-name">
+                                    <p>Morgan Oacley (@morgan)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="new">New</button>
+                            <button class="upload">Upload</button>
+                            <button class="share">Share</button>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    
+                    <div class="projects">
+                        <div class="projects-header">
+                            <h3>Your projects</h3>
+                        </div>
+                        <div class="projects-template">
+                            <div class="project">
+                                <div class="project-name-description">
+                                    <h4>Virtual Music Kit</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="project-options">
+                                    <button type="button" class="project-starred">
+                                    <img src="/icons/add.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-eyed">
+                                    <img src="/icons/eye.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-commited">
+                                    <img src="/icons/commit.png" alt="starred">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project-name-description">
+                                    <h4>Virtual Music Kit</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="project-options">
+                                    <button type="button" class="project-starred">
+                                    <img src="/icons/add.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-eyed">
+                                    <img src="/icons/eye.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-commited">
+                                    <img src="/icons/commit.png" alt="starred">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project-name-description">
+                                    <h4>Virtual Music Kit</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="project-options">
+                                    <button type="button" class="project-starred">
+                                    <img src="/icons/add.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-eyed">
+                                    <img src="/icons/eye.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-commited">
+                                    <img src="/icons/commit.png" alt="starred">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project-name-description">
+                                    <h4>Virtual Music Kit</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="project-options">
+                                    <button type="button" class="project-starred">
+                                    <img src="/icons/add.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-eyed">
+                                    <img src="/icons/eye.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-commited">
+                                    <img src="/icons/commit.png" alt="starred">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project-name-description">
+                                    <h4>Virtual Music Kit</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="project-options">
+                                    <button type="button" class="project-starred">
+                                    <img src="/icons/add.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-eyed">
+                                    <img src="/icons/eye.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-commited">
+                                    <img src="/icons/commit.png" alt="starred">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project-name-description">
+                                    <h4>Virtual Music Kit</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="project-options">
+                                    <button type="button" class="project-starred">
+                                    <img src="/icons/add.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-eyed">
+                                    <img src="/icons/eye.png" alt="starred">
+                                    </button>
+                                    <button type="button" class="project-commited">
+                                    <img src="/icons/commit.png" alt="starred">
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="announcements-trending">
+                        <div class="announcements">
+                            <div class="announcements-header">
+                                <h3>Announcements</h3>
+                            </div>
+                            <div class="announcements-content">
+                                <div class="announcement">
+                                    <h5>Site maintance</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                                <div class="announcement">
+                                    <h5>New features</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                                <div class="announcement">
+                                    <h5>New features</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="trending">
+                            <div class="trending-header">
+                                <h3>Trending</h3>
+                            </div>
+                            <div class="trending-content">
+                                <div class="trending-user">
+                                    <div class="trending-content-user-logo"></div>
+                                    <div class="user-name-description">
+                                        <h6>@igorsvk</h6>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                </div>
+                                <div class="trending-user">
+                                    <div class="trending-content-user-logo"></div>
+                                    <div class="user-name-description">
+                                        <h6>@igorsvk</h6>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                </div>
+                                <div class="trending-user">
+                                    <div class="trending-content-user-logo"></div>
+                                    <div class="user-name-description">
+                                        <h6>@igorsvk</h6>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                </div>
+                                <div class="trending-user">
+                                    <div class="trending-content-user-logo"></div>
+                                    <div class="user-name-description">
+                                        <h6>@igorsvk</h6>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="content">
-                
-                <div class="projects">
-                    <div class="projects-header">
-                        <h3>Your projects</h3>
-                    </div>
-                    <div class="projects-template">
-                        <div class="project">Virtual Music Kit</div>
-                        <div class="project">ddd</div>
-                        <div class="project">sss</div>
-                        <div class="project">vvv</div>
-                        <div class="project">bbb</div>
-                        <div class="project">mmm</div>
-                    </div>
-                </div>
-                <div class="announcements-trending">
-                    <div class="announcements">
-                        <h3>Announcements</h3>
-                    </div>
-                    <div class="trending">
-                        <h3>Trending</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 
-</html>
+    </html>

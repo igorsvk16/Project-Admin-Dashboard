@@ -25,6 +25,7 @@
 
 .categories {
     margin-bottom: 50%;
+    font-weight: 600;
 }
 
 .categories ul,
@@ -32,6 +33,7 @@
     display: grid;
     gap: 10%;
     font-size: 1.4rem;
+    font-weight: 600;
 }
 .categories ul,
 .settings ul {
@@ -141,39 +143,103 @@
 }
 
 .content {
-    background-color: antiquewhite;
+    background-color: rgb(231, 231, 231);
     grid-template-columns: 3fr 1fr;
     display: grid;
     align-items: start;
+    padding: 2%;
 }
 
 .projects {
     display: grid;
-    background-color: aqua;
+    background-color: rgb(231, 231, 231);
     height: 100vh;
     grid-template-rows: auto 1fr;
+    padding-right: 3%;
 }
 .projects-header {
     display: grid;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     height: 10px;
+}
+.project-name-description h4 {
+    margin-bottom: 1%;
 }
 .projects-template {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: start;
+    gap: 2%;
 }
 .project {
-    background-color: azure;
-    margin: 5%;
-    height: 50px;
+    display: grid;
+    background-color: #FFF;
+    height: 200px;
+    border-radius: 10px;
+    padding: 7% 4%;
+    border-left: 8px solid orange;
 }
 
-
-.announcements-trending {
-    background-color: aquamarine;
+.project-options {
+    display: grid;
     grid-auto-flow: column;
+    justify-content: end;
+    align-items: end;
+    gap: 2%;
+}
+.project-options button {
+    border: none;
+    background-color: white;
+}
+.project-starred img,
+.project-eyed img,
+.project-commited img {
+    width: 23px;
+    height: auto;
 }
 
+.announcements {
+    margin-bottom: 10%;
+}
+.announcements-trending {
+    grid-auto-flow: column;
+    padding-right: 8%;
+}
+.announcements-header {
+    margin-bottom: 7%;
+}
+.announcements-content {
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10% 7%;
+}
+.announcement {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 5%;
+}
+.announcement p {
+    font-size: 0.8rem;
+}
 
-
+.trending-header {
+    margin-bottom: 4%;
+}
+.trending-content {
+    background-color: white;
+    height: 280px;
+    border-radius: 10px;
+    padding: 7% 7%;
+}
+.trending-user {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.trending-content-user-logo {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(141, 224, 130);
+    border-radius: 50%;
+}
