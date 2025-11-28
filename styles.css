@@ -51,7 +51,6 @@
     display: grid;
     grid-column: 1.5 / 8;
     background-color: #FFF;
-    grid-area: 1fr / 1fr 1fr;
 }
 
 .header-upper {
